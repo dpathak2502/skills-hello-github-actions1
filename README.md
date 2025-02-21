@@ -1,11 +1,3 @@
-<header>
-
-# Hello GitHub Actions
-
-_Create and run a GitHub Actions workflow._
-
-</header>
-
 ## Step 3: Add a step to your workflow file
 
 _Nice work adding a job to your workflow! :dancer:_
@@ -45,14 +37,16 @@ Update your workflow to make it post a comment on new pull requests. It will do 
    
 1. Click **Commit changes** in the top right of the workflow editor.
 1. Type your commit message and commit your changes directly to your branch.
-1. Wait about 20 seconds, then refresh this page (the one you're following instructions from). Another workflow will run and will replace the contents of this README file with instructions for the next step.
+=======
+## Step 4: Merge your workflow file
 
-<footer>
+_You're now able to write and run an Actions workflow! :sparkles:_
 
----
+Merge your changes so the action will be a part of the `main` branch.
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/hello-github-actions) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+### :keyboard: Activity: Merge your workflow file
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+1. In your repo, click on the **Pull requests** tab.
+1. Click on the pull request you created in step 1.
+1. Click **Merge pull request**, then click **Confirm merge**.
+1. Optionally, click **Delete branch** to delete your `welcome-workflow` branch.
